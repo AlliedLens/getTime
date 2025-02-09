@@ -11,7 +11,7 @@ case "$1" in
         echo "  -cmosclock           Display the hardware clock time (requires sudo)."
         echo "  -fileinfo <file>     Display file access, modification, and change times for the specified file."
         echo "  -deleted <num> <drive(optional)> Check the first <num> deleted files on drive(defaults to /dev/nvme0n1p5) and show their metadata if recoverable."
-        echo "  -h, --help           Display this help text."
+        echo "  -h         Display this help text."
         exit 0
         ;;
     
